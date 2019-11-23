@@ -1,0 +1,107 @@
+p{
+  margin:0;
+}
+.App{
+  display: flex;
+justify-content: center;
+align-items: center;
+height:100vh;
+}
+.card{
+background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/73/23/9557b9d5ce12fac.jpg"); 
+height: 300px;
+width:400px;
+background-position: center;
+border-radius:10px;
+padding:0px 40px;
+}
+.titre{
+display: flex;
+justify-content: flex-end;
+color: white;
+}
+.card-descr{
+  display:flex;
+  justify-content: space-between;
+ 
+}
+.chip{
+  display:flex;
+  justify-content: flex-start;
+  height:60px;
+  width:80px;
+  margin-top:0px;
+
+}
+.card-num{
+  color:#D4AF37		;
+  font-size:30px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0px;
+  
+  width: 300px;
+}
+.master-logo{
+  height:120px;
+  width:80px;
+  margin-top:20px
+}
+.date-valid{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.card-caract{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  
+}
+.valid{
+  display:flex;
+  justify-content: space-between;
+  color: white;
+  font-size:12px;
+ 
+  
+}
+.valid-thru{
+  margin-top: 12px;
+  width: 30px;
+    font-size:10px;
+}
+.date{
+  color:white;
+  font-size:12px;
+  font-weight:bold;
+}
+.expire{
+  display:flex;
+  justify-content: space-between;
+}
+h2{
+  margin:0px;
+  color:white;
+  margin: 5px 0px;
+}
+.sous-valid{
+  display:flex;
+  flex-direction:column;
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-left:20px;
+  
+ }
+ .form input{
+  height: 36px;
+  width: 274px;
+  margin: 10px;
+ }
+ .App{
+   display:flex;
+   
+ }
